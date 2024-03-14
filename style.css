@@ -1,0 +1,49 @@
+/*
+What is CSS (Cascading Style Sheets)
+* skin of your elements
+* we use CSS to style and position our elements
+* consists of rulesets which have:
+    * selectors
+    * declaration
+    * properties
+    * values
+
+Syntax::after
+
+Ruleset
+
+selector {
+    declaration
+
+    property: value;
+    property: value;
+}
+
+{} => keeps together all the 
+*/
+
+body {
+    background-color: rgb(100, 128, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+/*This means an id attribute with a value of welcom*/
+#welcome {
+    color:blue;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*this means a class attribute with a value of nav-links */
+.nav-links {
+    color: white;
+    font-size: 20pt;
+}
+
+/* everything is a box - padding is inside the box and margin is outside the box*/
+#box-model-example {
+    padding: 2en;
+    margin: 2en
+}
+
